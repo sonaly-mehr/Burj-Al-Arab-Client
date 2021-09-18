@@ -11,7 +11,7 @@ const BookingConfirm = () => {
     const [loggedInUser, setLoggedInUser] = useContext(UserContext);
 
     useEffect(() => {
-        fetch('http://localhost:5000/bookings?email=' + loggedInUser.email)
+        fetch('https://peaceful-waters-44919.herokuapp.com/bookings?email=' + loggedInUser.email)
             .then(res => res.json())
             .then(data => setBookings(data));
     })

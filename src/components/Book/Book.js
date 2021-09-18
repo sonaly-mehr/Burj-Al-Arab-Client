@@ -57,7 +57,7 @@ const Book = () => {
         const newBooking = { ...loggedInUser, ...selectedDate, ...services };
         alert('Booking Has been created successfully')
         history.push('/bookingConfirm')
-        fetch('http://localhost:5000/addBooking', {
+        fetch('https://peaceful-waters-44919.herokuapp.com/addBooking', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(newBooking)
