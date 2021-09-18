@@ -1,0 +1,56 @@
+.banner-section{
+    position: relative;
+}
+.banner-section img{
+    height: 600px;
+    width: 100%;
+
+}
+.banner-section::before{
+    content: '';
+    position: absolute;
+    background-color: rgba(0,0,0,0.5);
+    left:0; top:0; right: 0;bottom: 0;
+    
+}
+.banner-content{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+}
+.banner-content span{
+    font-size: 20px;
+    font-weight: 300;
+}
+.banner-content h2{
+    font-size: 55px;
+    font-family: initial;
+    margin-top: 10px
+}
+.banner-content h4{
+    font-family: initial;
+    font-size: 40px;
+    text-transform: capitalize;
+}
+.banner-content button{
+    margin-top: 50px;
+    background: transparent;
+    border: none;
+    border: 1px solid #fff;
+    padding: 12px 50px;
+    transition: 0.3s;
+}
+.banner-content button a{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.banner-content button:hover{
+    background: #A28549;
+    border: none;
+}

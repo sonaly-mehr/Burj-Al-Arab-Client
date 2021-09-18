@@ -1,0 +1,209 @@
+.booking-section{}
+.booking-section-heading{
+    text-align: center;
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 25px;
+}
+.booking-section-heading h1{
+    font-size: 25px;
+    font-weight: 500;
+    font-family: initial
+}
+.booking-section-heading h1 span{
+    color: #A28549;
+    font-weight: 700;
+}
+.booking-section-heading p{
+    color: #515151;
+}
+.room-details{
+    padding-bottom: 80px;
+}
+.room-details-wrap{
+    display: flex;
+}
+.room-details p{
+    color: #595454;
+    width: 99%;
+    padding-top: 15px;
+    line-height: 27px;
+    margin-bottom: 0px;
+}
+.detail-heading{
+    margin-bottom: 30px;
+}
+.detail-heading h2{
+    text-transform: capitalize;
+    font-weight: 600;
+    font-family: initial;
+    font-size: 35px;
+    display: inline-block;
+    width: 546px;
+    position: relative;
+    top: 20px;
+}
+.detail-heading span{
+    display: block;
+    padding-left: 86%;
+    margin-top: -10px;
+    font-size: 14px;
+    color: #666;
+}
+.room-details img{
+    width: 100%;
+}
+.room-banner{
+    display: flex;
+    border: 1px solid #dfdddd;
+    margin-top: 15px;
+    padding: 10px 0;
+    padding-top: 20px;
+    text-align: center;
+}
+.single-room-banner {
+    border-right: 1px solid #dfdddd;
+}
+.book-desc{}
+.book-desc h6, .facilities h6{
+    font-weight: 600;
+    font-size: 19px;
+    padding-top: 30px
+}
+.book-desc p{}
+.room-fes{}
+.single-room-banner h6{
+    font-size: 14px;
+    color: #7f7a7a;;
+    margin-top: 5px;
+}
+.facilities{}
+.facility-wrap{
+    margin-top: 20px;
+}
+.single-facility{
+    color: #4d4d4d;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.single-facility span{
+    margin-left: 15px;
+}
+.faci-icon{}
+/* .booking-form{
+    width: 80%;
+} */
+.date-row{
+    margin-left: 20%;
+    margin-left: 17%;
+}
+.booking-btn{
+    background: #A28549;
+    color: #fff;
+    padding: 8px 60px;
+    border: 0;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    margin-left: 32%;
+    margin-top: 20px;
+}
+.booking-form{
+    background: #FBF8F3;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    width: 80%;
+    margin-top: 90px;
+
+}
+.extra-service{
+    margin-left: 25%;
+    display: flex;
+    margin-top: 15px;
+}
+.extra-service h6{
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-right: 20px;
+}
+.extra-service .plus{
+    font-size: 14px;
+}
+.sub-total{}
+.sub-total span{
+    font-size: 12px;
+    color: #636363;
+    font-weight: 600;
+    display: block;
+    text-align: center;
+}
+.sub-total h5{
+    text-align: center;
+    font-weight: 700;
+    font-family: initial;
+    margin-top: 5px;
+    font-size: 28px
+}
+.booking-help{
+    background: #A28549;
+    width: 60%;
+    text-align: center;
+    padding: 40px 0;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.booking-help p{
+    color: #fff;
+    font-size: 18px;
+    font-family: initial;
+    font-weight: 600;
+}
+.booking-help h4{
+    color: #fff;
+    font-weight: 700;
+    margin: 0;
+    margin-top: -5px;
+}
+.popular-rooms{}
+.popular-rooms h6{
+    font-weight: 700;
+    font-family: initial;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.single-popular-room{
+    display: flex;
+    margin-bottom: 20px;
+}
+.single-popular-room img{
+    width: 15%;
+}
+.popular-heading{
+    margin-left: 25px;
+}
+.popular-heading h6{
+    font-weight: 600;
+    font-family: initial;
+    font-size: 17px;
+    margin-bottom: 0px;
+}
+.popular-heading p{
+    color: #626161;
+    font-size: 12px;
+    text-transform: capitalize;
+    padding-top: 5px;
+}
+.popular-heading span{
+    color: #000;
+    font-weight: 600;
+}
+.popular-heading button{
+    background: #A28549;
+    border: none;
+    color: #fff;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-size: 12px;
+    padding: 5px 15px;
+}

@@ -1,0 +1,43 @@
+.single-testimonail{
+    text-align: center;
+    box-shadow: 0px 0px 15px 4px #f4f4f4;
+    padding: 38px
+}
+.single-testimonail h4{
+    color: #A28549;
+    margin-bottom: 15px;
+}
+.single-testimonail span{
+    color: #FCD63D;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+.single-testimonail p{
+    color: #676666;
+    margin-bottom: 25px;
+}
+.user-detail{
+    display: flex;
+    padding: 0px 30px;
+}
+.user-detail img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.user-name-pro{
+    text-align: left;
+}
+.user-name-pro h6{
+    font-weight: 600;
+    font-family: initial;
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+.user-name-pro span{
+    margin-right: 32px;
+    font-size: 12px;
+    color: #7c7b7b;
+    font-weight: 600;
+}

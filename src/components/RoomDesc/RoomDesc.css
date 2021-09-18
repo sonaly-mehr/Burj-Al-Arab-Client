@@ -1,0 +1,36 @@
+.rooms-section{}
+.room-desc{}
+.room-decs-img{}
+.room-decs-img img{
+    width: 70%;
+    margin-left: 115px;
+}
+.room-desc-right{}
+.room-desc-right h4{
+    color: #A28549;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: initial;
+}
+.room-desc-right h2{
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.room-desc-right p{
+    width: 73%;
+    margin-top: 25px;
+    color: #676767;
+    font-size: 14px;
+}
+.room-decs-director{
+    display: flex;
+}
+.room-decs-director h6{
+    font-weight: 600;
+    margin-right: 30px;
+}
+.room-decs-director span{
+    color: #5d5b5b;
+    font-size: 12px;
+}

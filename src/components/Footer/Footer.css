@@ -1,0 +1,58 @@
+.footer-section{}
+.footer-top{
+    background-color: #111111;
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+.single-footer{
+    color:#A0A0A0;
+}
+.single-footer img{width: 25%;}
+.single-footer p{
+    font-size: 14px;
+    line-height: 25px;
+    margin-top: 30px;
+    width: 91%;
+}
+.single-footer h6{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 14px;
+}
+.single-footer ul{
+    margin-left: -32px;
+    margin-top: 40px;
+}
+.single-footer ul li{
+    list-style: none;
+    margin-top: 15px;
+    font-size: 14px;
+
+}
+.single-footer ul li>FontAwesomeIcon{
+
+}
+.single-footer input{
+    height: 50px;
+    width: 100%;
+    font-size: 14px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 35px;
+}
+.single-footer input[type="submit"]{
+    background-color: #C7B39A;
+    border: none;
+    margin-top: 20px
+}
+.footer-p{
+    background-color: #000000;
+}
+.footer-p p{
+    text-align: center;
+    color: #515151;
+    padding: 20px 0;
+    margin-bottom: 0;
+}
+.footer-icon{margin-right: 10px;}

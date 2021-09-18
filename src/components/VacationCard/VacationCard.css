@@ -1,0 +1,32 @@
+.vacation-section{
+    padding-bottom: 60px;
+}
+.similar-headers{
+    padding-top: 80px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.similar-headers h6{
+    color: #4c4c4c;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 13px;
+    position: relative;
+}
+.similar-headers h6::before{
+    content: '';
+    position: absolute;
+    background-color: #94712F;
+    width: 30px;
+    height: 2px;
+    top: 25px;
+    left: 632px;
+    @media (max-width: 1200px) {
+        left:  542px;
+    }
+}
+.similar-headers h4{
+    font-family: initial;
+    font-size: 32px;
+    padding-top: 15px;
+}

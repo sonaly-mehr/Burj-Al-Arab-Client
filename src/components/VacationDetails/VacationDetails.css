@@ -1,0 +1,25 @@
+.single-vacation{
+    border: 2px solid #efefef;
+    height: 300px;
+    padding-top: 50px;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.2s;
+
+}
+.single-vacation:hover{
+    background-color: #C1A145;
+}
+.single-vacation img{}
+.single-vacation h6{
+    font-size: 18px;
+    padding-top: 25px;
+}
+.single-vacation p{
+    width: 70%;
+    display: inline-block;
+    color: #767676;
+    font-weight: 300;
+    padding-top: 5px;
+}
